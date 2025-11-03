@@ -188,3 +188,12 @@ footer {
     text-align: center;
     padding: 1.5rem;
 }
+
+.payment-methods {
+    margin-top: 1rem;
+}
+
+.payment-methods img {
+    height: 30px;
+    margin: 0 0.5rem;
+}
