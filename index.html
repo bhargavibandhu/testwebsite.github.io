@@ -1,12 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>AWS S3 website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKAN Devices and Solutions</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Amazon S3 website</h1>
-    <p>Lets get started</p>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/akan logo.png" alt="AKAN Logo">
+                <a href="#home">AKAN Devices and Solutions</a>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<img src="images/akan logo.png" alt="image1">
+    <main>
+        <section id="home">
+            <div class="hero">
+                <h1>Welcome to AKAN Devices and Solutions</h1>
+                <p>Your one-stop shop for the latest and greatest in tech.</p>
+                <a href="#products" class="cta-button">View Our Products</a>
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300/007BFF/FFFFFF?text=Access+Control" alt="Access Control Systems">
+                    <h3>Access Control Systems</h3>
+                    <p>State-of-the-art systems to secure your home or business.</p>
+                    <a href="access-control.html" class="cta-button">View Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300/28A745/FFFFFF?text=IoT+Devices" alt="IoT Devices">
+                    <h3>IoT Devices</h3>
+                    <p>Innovative IoT devices to connect and automate your environment.</p>
+                    <a href="iot-devices.html" class="cta-button">View Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300/FFC107/FFFFFF?text=Smart+Solutions" alt="Smart Solutions">
+                    <h3>Smart Solutions</h3>
+                    <p>Intelligent software solutions to optimize your workflow.</p>
+                    <a href="smart-solutions.html" class="cta-button">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 AKAN Devices and Solutions. All rights reserved.</p>
+        <div class="payment-methods">
+            <img src="https://via.placeholder.com/50x30/fff/000?text=Visa" alt="Visa">
+            <img src="https://via.placeholder.com/50x30/fff/000?text=Mastercard" alt="Mastercard">
+            <img src="https://via.placeholder.com/50x30/fff/000?text=PayPal" alt="PayPal">
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
